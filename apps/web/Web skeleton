@@ -1,1 +1,8 @@
 
+Day 1 UI requirements:
+
+Page title: SIGHTLINE
+
+Button: “Start Session”
+
+When clicked, calls backend /session/start and prints the session_id.
