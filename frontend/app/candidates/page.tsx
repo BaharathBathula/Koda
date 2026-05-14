@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar";
+import Link from "next/link";
 
 export default function CandidatesPage() {
   return (
@@ -47,9 +48,11 @@ export default function CandidatesPage() {
                 92%
               </div>
 
-              <button className="bg-black text-white px-5 py-2 rounded-xl">
-                View Profile
-              </button>
+              <Link href="/candidates/details">
+  <button className="bg-black text-white px-5 py-2 rounded-xl">
+    View Profile
+  </button>
+</Link>
             </div>
           </div>
 
